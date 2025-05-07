@@ -1,4 +1,5 @@
 # Vibe Security Action
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Vibe%20Security%20Action-blue?logo=github)](https://github.com/marketplace/actions/vibe-security)
 
 Run comprehensive security scans on your codebase using open-source tools like Semgrep, SQLMap, and Trivy—all in one step, directly from your GitHub Actions workflows.
 
@@ -24,7 +25,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Run Vibe Security scan
-        uses: SHA888/vibe-action@v1
+        uses: vibe-security/vibe-action@v1
 ```
 
 ## Inputs
@@ -45,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ./github/actions/vibe-security-action
+      - uses: vibe-security/vibe-action@v1
 ```
 
 ## License
