@@ -1,0 +1,22 @@
+name: 'Vibe Security'
+description: 'Run comprehensive Vibe Security scans in your GitHub Actions workflows using open-source tools.'
+author: 'SHA888'
+branding:
+  icon: 'shield'
+  color: 'blue'
+inputs: {}
+outputs: {}
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Install CLI dependencies
+      run: |
+        pip install semgrep sqlmap
+        pip install ./cli
+    - name: Run Vibe Security scan
+      run: |
+        vibe-security scan
