@@ -4,6 +4,9 @@
 Run comprehensive security scans on your codebase using open-source tools like Semgrep, SQLMap, and Trivy—all in one step, directly from your GitHub Actions workflows.
 
 ## Features
+
+📚 **Full documentation:** [Vibe Security Suite Docs – Action](https://github.com/vibe-security/vibe-security-suite/blob/main/docs-site/docs/action.md)
+
 - Code scanning (Semgrep)
 - SQL injection testing (SQLMap)
 - Filesystem/Container scanning (Trivy)
