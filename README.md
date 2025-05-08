@@ -5,7 +5,7 @@ Run comprehensive security scans on your codebase using open-source tools like S
 
 ## Features
 
-📚 **Full documentation:** [Vibe Security Suite Docs – Action](https://github.com/vibe-security/vibe-security-suite/blob/main/docs-site/docs/action.md)
+📚 **Full documentation:** [Vibe Security Suite Docs – Action](https://vibe-security.github.io/vibe-security-suite/docs/action)
 
 - Code scanning (Semgrep)
 - SQL injection testing (SQLMap)
